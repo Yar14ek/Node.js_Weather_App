@@ -89,5 +89,5 @@ app.get('*', (req, res) => {
 });
 
 app.listen(port, () => {
-  console.log(`listen port ${port});
+  console.log(`listen port ${port}`);
 });
